@@ -9,6 +9,8 @@ if __name__ == "__main__":
         version='0.1.0',
         author='Edouard GEZE',
         author_email='edouard.geze@gmail.com',
+        packages=['myprofiler',
+                  'myprofiler.test'],
         license='LICENSE.txt',
         description='interactive profiler for deep learning',
         long_description=open('README.md').read(),
